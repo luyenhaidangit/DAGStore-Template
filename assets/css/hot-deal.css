@@ -1,0 +1,19 @@
+.hot-deal{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEBD1C;
+    border-radius: 8px;
+}
+
+.hot-deal__title > img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.hot-deal__product-item{
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 6px;
+}

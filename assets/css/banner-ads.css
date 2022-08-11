@@ -1,0 +1,19 @@
+.banner-ads{
+    margin: 16px 0;
+}
+
+.banner-ads > a > img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-ads{
+        margin: 0;
+    }
+
+    .home-content > div:nth-child(2){
+        padding: 0;
+    }
+}

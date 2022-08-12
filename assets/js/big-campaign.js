@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".big-campaign__swiper", {
     slidesPerView: 1,
     spaceBetween: 0,
     slidesPerGroup: 1,
@@ -9,7 +9,7 @@ var swiper = new Swiper(".mySwiper", {
         disableOnInteraction: false,
     },
     pagination: {
-        el: ".swiper-pagination",
+        el: ".big-campaign__dot",
         clickable: true,
       },
     navigation: {

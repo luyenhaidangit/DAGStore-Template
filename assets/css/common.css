@@ -233,3 +233,19 @@
     color: #fff;
 }
 /* end: label */
+
+/* begin: title */
+.home-categories__title{
+
+}
+
+.home-categories__title > strong{
+    display: block;
+    padding: 16px 20px;
+    color: #333;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+/* end: title */

@@ -6,20 +6,6 @@
     overflow: hidden;
 }
 
-.shopping-trends__top{
-
-}
-
-.shopping-trends__top > strong{
-    display: block;
-    padding: 16px 20px;
-    color: #333;
-    font-size: 22px;
-    line-height: 36px;
-    text-transform: uppercase;
-    overflow: hidden;
-}
-
 .shopping-trends__body{
     display: flex;
     gap: 12px;

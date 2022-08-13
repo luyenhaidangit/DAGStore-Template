@@ -1,6 +1,6 @@
 .shopping-trends{
     display: block;
-    margin: 0 0 30px;
+    margin-bottom: 16px;
     background: linear-gradient(90deg,#ffecd2 0%,#fcb69f 100%);
     border-radius: 12px;
     overflow: hidden;

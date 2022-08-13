@@ -19,7 +19,7 @@ var swiper = new Swiper(".big-campaign__swiper", {
 
     breakpoints: {
         // when window width is >= 320px
-        1000: {
+        992: {
           slidesPerView: 2,
           spaceBetween: 16
         }

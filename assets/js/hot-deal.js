@@ -30,7 +30,7 @@
     freeMode: true,
     navigation: {
       nextEl: ".hot-deal__button-next",
-      prevEl: ".hot-deal__button-pre",
+      prevEl: ".hot-deal__button-prev",
     },
     breakpoints: {
       // when window width is >= 320px
@@ -38,17 +38,20 @@
         slidesPerView: 5,
         spaceBetween: 16,
         slidesPerGroup: 5,
+        loop: true,
       },
       1200: {
         slidesPerView: 4,
         spaceBetween: 24,
         slidesPerGroup: 4,
+        loop: true,
       },
 
       992: {
         slidesPerView: 3,
         spaceBetween: 24,
         slidesPerGroup: 3,
+        loop: true,
       },
       768: {
           watchSlidesProgress: true,

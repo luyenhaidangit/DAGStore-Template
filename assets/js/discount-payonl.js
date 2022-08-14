@@ -9,7 +9,7 @@ var swiperDiscountPayonl = new Swiper(".discount-payonl__swiper", {
         disableOnInteraction: false,
     },
     pagination: {
-        el: ".promo-brand-outstanding__dot",
+        el: ".discount-payonl__dot",
         clickable: true,
       },
     navigation: {
@@ -18,7 +18,6 @@ var swiperDiscountPayonl = new Swiper(".discount-payonl__swiper", {
     },
 
     breakpoints: {
-        // when window width is >= 320px
         992: {
             slidesPerView: 3,
             spaceBetween: 16

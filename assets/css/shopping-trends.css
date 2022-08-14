@@ -69,5 +69,6 @@
 @media only screen and (max-width: 578px) {
     .shopping-trends{
         border-radius: unset;
+        margin-bottom: 0;
     }
 }

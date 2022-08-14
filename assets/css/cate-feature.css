@@ -71,6 +71,10 @@
     .cate-feature__item{
         min-width: 33.33%;
     }
+    .cate-feature{
+        border-radius: 0;
+        margin-bottom: 0;
+    }
 }
 
 

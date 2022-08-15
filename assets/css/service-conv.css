@@ -1,0 +1,123 @@
+.service-conv{
+    display: block;
+    margin-bottom: 16px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.home-categories__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-conv__body{
+    display: flex;
+    gap: 12px;
+    padding: 0 20px 32px;
+}
+
+.service-conv__item{
+    max-width: 24%;
+    height: 148px;
+    border-radius: 14px;
+    padding: 14px 10px;
+    cursor: pointer;
+}
+
+.service-conv__item:nth-child(1){
+    background: #dceeff;
+}
+
+.service-conv__item:nth-child(2){
+    background: #fef5cf;;
+}
+
+.service-conv__item:nth-child(3){
+    background: #ffefdb;
+}
+
+
+.service-conv__item:nth-child(4){
+    background: #e1fecf;
+}
+
+
+.service-conv__item > a{
+    display: flex;
+    gap: 12px;
+}
+
+
+.service-conv__item-icon > i{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 100%;
+}
+
+.service-conv__item:nth-child(1) > a > .service-conv__item-icon > i{
+    color: #2421DA;
+    background-color: #D0CFF8;
+}
+
+.service-conv__item:nth-child(2) > a > .service-conv__item-icon > i{
+    color: #FF6D4D;
+    background: #f6f2dd;
+}
+
+.service-conv__item:nth-child(3) > a > .service-conv__item-icon > i{
+    color: #FE634E;
+    background: #ffd3cd;
+}
+
+.service-conv__item:nth-child(4) > a > .service-conv__item-icon > i{
+    color: #2BC155;
+    background: #e3f9e9;
+}
+
+.service-conv__item-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.service-conv__item-name,
+.service-conv__item-sub{
+    display: block;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 25px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-conv__item-sub > strong{
+    color: #ff0b0b;
+}
+
+@media only screen and (max-width: 1200px) {
+    .service-conv__item{
+        min-width: 30%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .service-conv__item{
+        min-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service-conv__item{
+        min-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .service-conv__item{
+        min-width: 75%;
+    }
+}

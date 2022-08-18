@@ -1,0 +1,31 @@
+.newchain{
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+
+.newchain > .home-categories__title > strong{
+    padding: 16px 0px;
+}
+
+.newchain__dot{
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .newchain{
+        padding: 16px 20px;
+        background-color: #fff;
+        margin-bottom: 0;
+        border-radius: 0px;
+    }
+
+    .newchain .product-item-core{
+        max-width: 240px;
+        min-height: 480px;
+    }
+
+    .newchain__dot{
+        display: block;
+    }
+}

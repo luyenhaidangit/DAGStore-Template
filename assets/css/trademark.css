@@ -16,8 +16,8 @@
     .trademark{
         padding: 16px 20px;
         background-color: #fff;
-        margin-bottom: 0;
-        border-radius: 16px;
+        margin-bottom: 16px;
+        border-radius: 0px;
     }
 
     .trademark .product-item-core{

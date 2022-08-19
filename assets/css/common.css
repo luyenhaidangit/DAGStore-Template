@@ -265,3 +265,17 @@
 /* begin: icon */
 
 /* end: icon */
+
+/* begin: color */
+.bg-main{
+    background-color: #ffd400;
+}
+
+/* end: color */
+
+/* begin: font-size */
+.fz-40{
+    font-size: 40px;
+}
+/* end: size */
+

@@ -279,3 +279,13 @@
 }
 /* end: size */
 
+/* begin: container */
+
+@media only screen and (max-width: 768px) {
+
+    .container-md{
+        padding: 0;
+    }
+}
+
+/* end: container */

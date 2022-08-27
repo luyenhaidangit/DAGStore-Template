@@ -340,3 +340,48 @@ var swiperPromoBhx = new Swiper(".promo-bhx__swiper", {
         }
       }
   });
+
+  // banner-top slider -- product categories
+  var swiperOutstanding = new Swiper(".product-categories__top-banner__carousel", {
+    slidesPerView: 1,
+    spaceBetween: 16,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: false,
+    // },
+    pagination: {
+        el: ".promo-brand-outstanding__dot",
+        clickable: true,
+      },
+    navigation: {
+      nextEl: ".product-categories__top-banner__carousel__button-next",
+      prevEl: ".product-categories__top-banner__carousel__button-prev",
+    },
+
+    // breakpoints: {
+    //     // when window width is >= 320px
+    //     992: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 16
+    //       },
+
+    //     768: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 16
+    //       }
+    //   }
+});
+
+// fitler product
+var boxFilterProductCategories = new Swiper(".box-filter__filter-group-item", {
+  // slidesPerView: 7,
+  // spaceBetween: 10,
+  freeMode: true,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+});

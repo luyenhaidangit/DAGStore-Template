@@ -289,3 +289,25 @@
 }
 
 /* end: container */
+
+/* tab */
+.product-preview-tab.tab-item-core{
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+}
+
+.product-preview-tab .thumb-tab-item{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.product-preview-tab.active .thumb-tab-item{
+    border: 1px solid #fb6e2e;
+}
+
+.product-preview-tab .title-tab-item{
+    margin-top: 4px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

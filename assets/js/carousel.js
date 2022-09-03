@@ -385,3 +385,22 @@ var boxFilterProductCategories = new Swiper(".box-filter__filter-group-item", {
   //   clickable: true,
   // },
 });
+
+
+
+// Preview product
+var productPreviewListImgProduct = new Swiper(".product-preview__list-img-product", {
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+      el: ".discount-payonl__dot",
+      clickable: true,
+    },
+  navigation: {
+    nextEl: ".product-preview__list-img-product__button-next",
+    prevEl: ".product-preview__list-img-product__button-pre",
+  },
+});
+

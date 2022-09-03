@@ -1,0 +1,40 @@
+.math-curly-brackets{
+    width: 100px;
+    position: relative;
+}
+
+.math-curly-brackets::after{
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    content: "a'x + b'y = c";
+}
+
+.math-curly-brackets::before{
+    position: absolute;
+    top: -12px;
+    left: -6px;
+    content: "{";
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.math-curly-brackets::before::before{
+    position: absolute;
+    top: -12px;
+    left: -6px;
+    content: "Dạng tổng quát phương trình: ";
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.math-variable{
+    position: absolute;
+    right: 32px;
+    top: 10px;
+}
+
+.math-charac{
+    position: absolute;
+    top: 10px;
+}

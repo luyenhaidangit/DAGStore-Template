@@ -1,0 +1,87 @@
+@import url("reset.css");
+@import url("common.css");
+@import url("component-client.css");
+
+.breadcrumb li{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #288ad6;
+    padding: 0 10px 0 0;
+}
+
+.product-title{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+.product-compare > *,
+.product-rate > *{
+    font-size: 12px;
+    line-height: 28px;  
+}
+
+.small-ratings i{
+    color:#cecece; 
+}
+
+.intro-product{
+    line-height: 28px;
+}
+
+.introduct-product__social-btn{
+    font-size: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+.product-preview__list-img-product .slide-img-core{
+    height: auto;
+}
+
+.product-info-content.show{
+    background-color: rgba(0,0,0,.9);
+}
+
+.product-info-content .modal-dialog{
+    max-width: 80%;
+    min-height: 100vh;
+}
+
+.product-info-content .modal-header > span{
+    display: block;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-info-content .modal-content{
+    min-height: 100vh;
+    position: relative;
+}
+
+.product-content-tab.active > span{
+    color: #2d9cdb;
+    border-bottom: 4px solid #2d9cdb;
+}
+
+.product-info-content .btn-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.product-content-tab > span{
+    display: block;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}

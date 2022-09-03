@@ -404,3 +404,20 @@ var productPreviewListImgProduct = new Swiper(".product-preview__list-img-produc
   },
 });
 
+// Content Product
+// Preview product
+var productPreviewListImgProduct = new Swiper(".product-content__list-img-product", {
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+      el: ".discount-payonl__dot",
+      clickable: true,
+    },
+  navigation: {
+    nextEl: ".product-content__list-img-product__button-next",
+    prevEl: ".product-content__list-img-product__button-pre",
+  },
+});
+

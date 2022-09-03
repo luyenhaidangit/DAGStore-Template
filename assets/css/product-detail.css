@@ -45,6 +45,7 @@
     border-radius: 4px;
 }
 
+.product-content__list-img-product .slide-img-core,
 .product-preview__list-img-product .slide-img-core{
     height: auto;
 }

@@ -86,3 +86,7 @@
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.product-content-tab-child{
+    margin: 0 15%;
+}

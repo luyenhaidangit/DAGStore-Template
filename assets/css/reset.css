@@ -10,9 +10,9 @@ a {
     color: #288ad6;
 }
 
-li{
+/* li{
     list-style: none;
-}
+} */
 
 @media only screen and (max-width: 1400px) {
     

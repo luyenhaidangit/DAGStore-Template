@@ -421,3 +421,97 @@ var productPreviewListImgProduct = new Swiper(".product-content__list-img-produc
   },
 });
 
+//Hot Deal Carousel
+var swiperHotDeal = new Swiper(".suggestion-product__accessory__swiper", {
+  spaceBetween: 16,
+  slidesPerGroup: 2,
+  freeMode: true,
+  navigation: {
+    nextEl: ".hot-deal__button-next",
+    prevEl: ".hot-deal__button-prev",
+  },
+  breakpoints: {
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 16,
+      slidesPerGroup: 5,
+      loop: true,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 24,
+      slidesPerGroup: 4,
+      loop: true,
+    },
+
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+      slidesPerGroup: 3,
+      loop: true,
+    },
+    768: {
+        watchSlidesProgress: true,
+        slidesPerView: 2,
+        spaceBetween: 24,
+        slidesPerGroup: 2,
+    },
+    567: {
+      watchSlidesProgress: true,
+      slidesPerView: 2,
+      spaceBetween: 24,
+      slidesPerGroup: 2,
+      loop: true,
+      freeMode: false,
+  },
+  }
+});
+
+//Hot Deal Carousel
+var swiperHotDeal = new Swiper(".suggestion-product__more__swiper", {
+  spaceBetween: 16,
+  slidesPerGroup: 2,
+  freeMode: true,
+  navigation: {
+    nextEl: ".suggestion-product__more__button-next",
+    prevEl: ".suggestion-product__more__button-prev",
+  },
+  breakpoints: {
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 16,
+      slidesPerGroup: 5,
+      loop: true,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 24,
+      slidesPerGroup: 4,
+      loop: true,
+    },
+
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+      slidesPerGroup: 3,
+      loop: true,
+    },
+    768: {
+        watchSlidesProgress: true,
+        slidesPerView: 2,
+        spaceBetween: 24,
+        slidesPerGroup: 2,
+    },
+    567: {
+      watchSlidesProgress: true,
+      slidesPerView: 2,
+      spaceBetween: 24,
+      slidesPerGroup: 2,
+      loop: true,
+      freeMode: false,
+  },
+  }
+});
+
+
+

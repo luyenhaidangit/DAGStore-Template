@@ -118,6 +118,17 @@
     text-overflow: ellipsis;
 }
 
+.product-item-core__text{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* align-items: flex-start; */
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
 .product-item-core__order-online,
 .product-item-core__gift{
     display: block;
@@ -125,6 +136,11 @@
     font-size: 14px;
     margin-bottom: 4px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-item-core__row{
+    display: flex;
+    align-items: flex-start;
 }
 
 .product-item-core__price{
@@ -310,4 +326,18 @@
     margin-top: 4px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* text */
+.text-sm{
+    font-size: 0.75rem;
+}
+
+.btn.btn-orange{
+    background-color: #fb6e2e;
+    color: #fefefe;
+}
+
+.bg-secondary{
+    background-color: #e8e8e8;;
 }
